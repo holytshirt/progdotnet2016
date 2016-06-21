@@ -1,0 +1,3 @@
+{
+    "projects":["console", "lib", "web", "test"]
+}
