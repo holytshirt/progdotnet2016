@@ -7,8 +7,8 @@
 ## ASP.NET Scaffolding
 * [Yeoman](http://yeoman.io/)
 * [Node.js](https://nodejs.org)
-* 'npm install -g yo bower grunt-cli gulp'
-* 'npm install generator-aspnet'
+* `npm install -g yo bower grunt-cli gulp`
+* `npm install generator-aspnet`
 
 ## Docker
 * [Docker Install](https://docs.docker.com/engine/installation/)
