@@ -45,6 +45,14 @@ dotnet-mycommand == dotnet mycommand
 Create NuGet.config
 `dotnet pack --version-suffix dev --output /localfeed`
 
+# Docker 
+docker ps
+docker images
+docker run --rm <appname>
+
+
+
+
 
 
 
