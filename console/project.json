@@ -9,6 +9,7 @@
       "version": "1.0.0-rc2-3002702"
     },
     "Newtonsoft.Json": "9.0.1-beta1",
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0-rc2-final",
     "library": {
      "target": "project",
      "version": "1.0.0-*"}
@@ -17,5 +18,11 @@
     "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
+  },
+    "tools": {
+    "dotnet-publish-docker" : "1.0.0-alpha1"  
+  },
+  "scripts": {
+    "postpublish": "dotnet publish-docker --publish-folder %publish:OutputPath%"
   }
 }
