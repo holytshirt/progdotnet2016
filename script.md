@@ -43,7 +43,7 @@ dotnet-mycommand == dotnet mycommand
 
 # NuGet 
 Create NuGet.config
-`dotnet pack --version-suffix dev --output /localfeed`
+`dotnet pack --version-suffix dev --output /Users/toby/dev/progdotnet2016/localfeed`
 
 # Docker 
 docker ps
